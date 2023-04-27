@@ -10,8 +10,24 @@ public class MyArrayListTest {
 
 
         myList.add(1, 100);
-        myList.add(8, 800);
         System.out.println(myList);
+
+        System.out.println(myList.size());
 //        myList.print();
+
+        int v1 = myList.get(0);
+        System.out.println(v1);
+        System.out.println("-------------");
+
+        for (int i = 0; i < myList.size(); i++) {
+            System.out.println(myList.get(i));
+        }
+        System.out.println("-------------");
+
+        int sum = 0;
+        for (int i = 0; i < myList.size(); i++) {
+            sum += myList.get(i);
+        }
+        System.out.println("sum: " + sum);
     }
 }

@@ -17,5 +17,7 @@ public class ArrayListStudy3 {
         int removeValue = list.remove(4);// 4번방의 있는 값을 지우겠다.
         System.out.println("removeValue " + removeValue);
         System.out.println(list);
+
+        System.out.println(list.size());
     }
 }

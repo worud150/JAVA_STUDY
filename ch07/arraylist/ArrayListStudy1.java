@@ -14,7 +14,7 @@ public class ArrayListStudy1 {
         list.add(10); //0번방에 값이 들어감, 값 넣는 법
         list.add(20); //1번방에 값이 들어감
         list.add("aaa"); //정수값 문자열 다 들어감
-        //Object 타입은 모든 값을 받을 수 있음 그래서 가능한 부분임
+        //Object 타입으로 받아서 모든 값을 받을 수 있음
 
         Object obj = 10;
 
