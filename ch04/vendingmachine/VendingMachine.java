@@ -1,4 +1,4 @@
-package com.green.java.ch04;
+package com.green.java.ch04.vendingmachine;
 
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -36,15 +36,10 @@ public class VendingMachine {
             System.out.println("제품을 구매하지 않았습니다.");
             return;
         }
-
-            int idx = purchaseList.get(0);
-            System.out.print(menu[idx]);
-
             for (int i = 0; i < purchaseList.size(); i++) {
-                idx = purchaseList.get(i);
-                System.out.printf(", %s", menu[idx]);
+                int idx = purchaseList.get(i);
+                System.out.print(menu[idx]+ " ");
             }
         System.out.println("을(를) 구매하였습니다.");
-
     }
 }
