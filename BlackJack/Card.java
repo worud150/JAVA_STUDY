@@ -8,6 +8,7 @@ public class Card {
     public Card (String patten, String denomination) {
         this.patten = patten;
         this.denomination = denomination;
+
     }
 
     public String getPatten() {
@@ -16,5 +17,10 @@ public class Card {
 
     public String getDenomination() {
         return denomination;
+    }
+
+    @Override
+    public String toString() {
+        return  String.format("Card { %s, %s }",getPatten() , getDenomination());
     }
 }
