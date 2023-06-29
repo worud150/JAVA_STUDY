@@ -7,10 +7,14 @@ public class CastingTest1 {
         FireCar fc2 =null;
 
         fc.water();
-        car = fc; //결국의 형변환이 일어남
+        car = fc; //결국 형변환이 일어남
+
+        System.out.println("----------");
+        fc2 = (FireCar)car;
+        fc2.water();
 
         car = new Car();
-        if (car instanceof FireCar) {
+        if (car instanceof Object) { // 뒤에쓰는 친구가 받는 친구
             fc2 = (FireCar)car;
             fc2.water();
         } else {

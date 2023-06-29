@@ -1,19 +1,7 @@
 package com.green.java.ch04;
 
 import java.util.Scanner;
-class ScoreObj {
-    char getGrade(int score) {
-        if (score >= 90) {
-            return 'A';
-        }else if (score >= 80) {
-            return 'B';
-        }
-        else if (score >= 70) {
-            return 'C';
-        }
-        return 'D';
-    }
-}
+
 public class FlowEx4Method {
     public static void main(String[] args) {
 
@@ -31,6 +19,19 @@ public class FlowEx4Method {
 
         System.out.printf("%d점의 학점은 %c입니다.", score, grade);
 
+    }
+}
+class ScoreObj {
+    char getGrade(int score) {
+        if (score >= 90) {
+            return 'A';
+        }else if (score >= 80) {
+            return 'B';
+        }
+        else if (score >= 70) {
+            return 'C';
+        }
+        return 'D';
     }
 }
 

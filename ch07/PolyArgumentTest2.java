@@ -90,6 +90,7 @@ class Buyer3 {
 //           System.out.print(items[i]);
 //       }
 //       System.out.printf("총 %d개입니다.", idx);
+
        System.out.print("구입하신 제품은 ");
        if (idx > 0) {
            System.out.printf(" %s",items[0]);

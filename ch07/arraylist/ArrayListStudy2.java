@@ -1,10 +1,12 @@
 package com.green.java.ch07.arraylist;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 
 public class ArrayListStudy2 {
     public static void main(String[] args) {
-        //래퍼타입들이 있음
+        //래퍼런스타입들이 있음
 
         int a = 10;
         Integer a2 = a;
@@ -14,7 +16,7 @@ public class ArrayListStudy2 {
         //문자열 절대 안들어감
         //실수값도 들어 갈 수 없다.
         //모든 방이 정수값만 넣을 수 있음
-        ArrayList<Integer> list = new ArrayList<>();
+        List<Integer> list = new ArrayList<>();
 //        list.add("11");
 //        list.add(10.1);
 //        list.add(true);

@@ -6,10 +6,12 @@ public class PrintfEx1 {
         short s =2;
         char c = 'A';
         int finger = 2;
+        boolean bl = true ;
 
         System.out.printf("b=%d\n", b);
-        System.out.printf("s=%d%n", s);
-        System.out.printf("c=%c, %d %n\n", c, (int)c);
+        System.out.printf("s=%d\n", s);
+        System.out.printf("bl=%b\n", bl);
+        System.out.printf("c=%c, %d \n\n", c, (int)c);
         System.out.printf("finger=[%5d] \n", finger);
         System.out.printf("finger=[%-5d] \n", finger);
         System.out.printf("finger=[%05d] \n", finger);

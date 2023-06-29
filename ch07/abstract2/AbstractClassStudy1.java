@@ -1,6 +1,6 @@
 package com.green.java.ch07.abstract2;
 
-public abstract class AbstractClassStudy1 {
+public abstract class AbstractClassStudy1 { // 강제성이 있나 없나의 차이
     abstract void sum (int n1, int n2);
     int multi (int n1, int n2) {
         return n1 * n2;

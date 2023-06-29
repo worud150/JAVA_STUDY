@@ -10,7 +10,7 @@ public class TryCatchStudy3 {
         try {
             r = n1 / n2;
             if (r % 2 == 0) {return 100;}
-        } catch (Exception e) {
+        } catch (Exception e ) {
             e.printStackTrace();
         } finally {
             System.out.println("파이널리");

@@ -36,8 +36,7 @@ class Tv2 extends Product {
     public Tv2() {
         super(100);
     }
-
-    public String  toString() { // 오버라이딩 하는 중임
+    public String toString() { // 오버라이딩 하는 중임
         return "Tv";
     }
 }
@@ -46,6 +45,7 @@ class Computer extends Product {
     public Computer () {
         super(200);
     }
+    @Override
     public String toString() { // 오버라이딩 하는 중임
         return "Computer";
     }

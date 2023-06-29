@@ -3,6 +3,17 @@ package com.green.java.ch08;
 public class TryCatchStudy5 {
     public static void main(String[] args) {
         try {
+            otherGetConnection();
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+        try {
+            getConnection();
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+
+        try {
             getConnection();
         } catch (Exception e) {
             throw new RuntimeException(e);

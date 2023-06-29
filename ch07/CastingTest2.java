@@ -6,7 +6,10 @@ public class CastingTest2 {
         Car car2 = null;
         FireCar fc = null;
 
+        car = new FireCar();
         car.drive();
-//        fc = (FireCar) car; 자식은 부모타입을 받을 수 없다
+        System.out.println("----------------");
+        fc = (FireCar) car; //자식은 부모타입을 받을 수 없다
+        fc.water();
     }
 }

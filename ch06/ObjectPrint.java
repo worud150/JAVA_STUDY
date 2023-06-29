@@ -7,10 +7,15 @@ public class ObjectPrint {
 
         ValueBox vb = new ValueBox();
         vb.num = 10;
+        int n = 15;
         System.out.println(vb);
     }
 
 }
 class ValueBox {
     int num;
+    @Override
+    public String toString() {
+        return "num : " + String.valueOf(num);
+    }
 }

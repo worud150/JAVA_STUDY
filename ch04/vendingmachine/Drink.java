@@ -7,7 +7,7 @@ public class Drink {
     private String company;
     private int ml;
 
-    public Drink (int price, String name, String company, int ml) {
+    public Drink(int price, String name, String company, int ml) {
         this.price = price;
         this.name = name;
         this.company = company;
@@ -30,3 +30,5 @@ public class Drink {
         return ml;
     }
 }
+
+

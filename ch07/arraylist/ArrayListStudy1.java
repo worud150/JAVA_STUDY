@@ -1,6 +1,7 @@
 package com.green.java.ch07.arraylist;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class ArrayListStudy1 {
     public static void main(String[] args) {
@@ -10,7 +11,7 @@ public class ArrayListStudy1 {
             3. .add를 꼭 써야함
             4. 뺄때는 get을 사용해서 빼야함
          */
-        ArrayList list = new ArrayList(); //크기가 정해져 있지 않음
+        List list = new ArrayList(); //크기가 정해져 있지 않음 , 다형성 상속관계임
         list.add(10); //0번방에 값이 들어감, 값 넣는 법
         list.add(20); //1번방에 값이 들어감
         list.add("aaa"); //정수값 문자열 다 들어감

@@ -17,6 +17,7 @@ public class ParamsTest {
     static void  changeNum2 (NumberBox nb2){
         nb2.num = 20;
     }
+
 }
 class NumberBox {
     int num;

@@ -5,6 +5,7 @@ public class Poly2 {
         Animal ani1 = new Bulldog();
         boolean r1 = ani1 instanceof Bulldog;
         //형변환이 가능하면 true 아니면 false가 뜸
+        //형변환관계가 되려면 상속관계가 되어야함.
         System.out.println("r1: " + r1);
         Bulldog bd1 = (Bulldog) ani1;
 

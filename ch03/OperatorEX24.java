@@ -26,3 +26,4 @@ public class OperatorEX24 {
         // or 연산자는 true 연산자를 앞쪽으로 배치하는게 좋음
     }
 }
+

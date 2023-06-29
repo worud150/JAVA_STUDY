@@ -6,7 +6,7 @@ public class MyArrayList {
 
     public MyArrayList() {
         items = new int[0];
-        System.out.println(items.length);
+//        System.out.println(items.length);
     }
 
     public void add(int value) {
@@ -118,6 +118,16 @@ public class MyArrayList {
                 }
             }
         }
+    }
+
+    public void set (int idx, int num) {
+        items[idx] = num;
+    }
+
+    public boolean contains (int idx) {
+        for (int val : items) {
+            if ( val == idx) {return true;}
+        } return false;
     }
 }
 

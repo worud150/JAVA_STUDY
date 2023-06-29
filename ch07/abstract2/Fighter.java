@@ -1,6 +1,6 @@
 package com.green.java.ch07.abstract2;
 
-public class Fighter implements Fightable {
+public abstract class Fighter implements Fightable,Runnable {
 
     @Override
     public void sum(int x, int y) {
