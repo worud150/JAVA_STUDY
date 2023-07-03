@@ -15,8 +15,8 @@ public class MyArrayListTest {
         myList.add(31);
 
         System.out.println(myList);
-
-        myList.forEach(item -> System.out.println(item + " 개"));
+        System.out.println("--------------------------");
+//        myList.forEach(item -> System.out.println(item + " 개"));
         myList.forEach(item -> System.out.println(item * 2));
         MyArrayList mapList = myList.filter(item -> item % 2 == 0);
 
