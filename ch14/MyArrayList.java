@@ -1,5 +1,8 @@
 package com.green.java.ch14;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @FunctionalInterface
 interface MyConsumer {
     void accept (int num);
@@ -99,4 +102,12 @@ public class MyArrayList {
             this.arr[i] = my.apply(this.arr[i]);
         }
     }
+   public static MyArrayList asList (int... num){
+      MyArrayList ml = new MyArrayList();
+       for (int i = 0; i < num.length; i++) {
+           int val = num[i];
+           ml.add(val);
+       }
+      return ml;
+   }
 }
